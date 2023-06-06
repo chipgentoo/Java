@@ -2,7 +2,6 @@
  * Реализовать сортировку подсчетом.
  */
 import java.util.Arrays;
- 
 class Main
 {
     public static void countsort(int[] arr, int k)
