@@ -23,12 +23,34 @@ public class Sem1Task4 {
         }
         return array;
     }
+    public static int[] shiftToLeft(int[] array, int value){
+        int size = array.length;
+        for (int i = 0; i < value; i++) {
+            int firstValue = array[0];
+            for (int j = 1; j <= array.length-1; j++) {
+                array[j-1] = array[j];
+            }
+            array[array.length-1] = firstValue;
+        }
+        return array;
+    }
     public static void main(String[] args) {
         int[] array = new int[]{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         int n = 3; // сдвиг
         System.out.println("Входящий массив" + Arrays.toString(array));
         shiftToRight(array, n);
+        System.out.println("Сдвинули вправо на " + n);
+        System.out.println("Исходящий массив" + Arrays.toString(array));
+        shiftToLeft(array, n-1);
+        System.out.println("Сдвинули влево на " + (n - 1));
         System.out.println("Исходящий массив" + Arrays.toString(array));
     }
-
 }
+/**
+ * ВЫХЛОП:
+ * Входящий массив[1, 2, 3, 4, 5, 6, 7, 8, 9]
+ * Повернули вправо на 3
+ * Исходящий массив[7, 8, 9, 1, 2, 3, 4, 5, 6]
+ * Повернули влево на 2
+ * Исходящий массив[9, 1, 2, 3, 4, 5, 6, 7, 8]
+ */
