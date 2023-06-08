@@ -12,8 +12,7 @@ import java.util.Arrays;
  * При каком n в какую сторону сдвиг, можете выбирать сами.
  */
 public class Sem1Task4 {
-    public static int[] shiftToRight(int[] array, int value){
-        int size = array.length;
+    public static void shiftToRight(int[] array, int value){
         for (int i = 0; i < value; i++) {
             int lastValue = array[array.length - 1];
             for (int j = array.length-1; j >= 1; j--) {
@@ -21,10 +20,8 @@ public class Sem1Task4 {
             }
             array[0] = lastValue;
         }
-        return array;
     }
-    public static int[] shiftToLeft(int[] array, int value){
-        int size = array.length;
+    public static void shiftToLeft(int[] array, int value){
         for (int i = 0; i < value; i++) {
             int firstValue = array[0];
             for (int j = 1; j <= array.length-1; j++) {
@@ -32,7 +29,6 @@ public class Sem1Task4 {
             }
             array[array.length-1] = firstValue;
         }
-        return array;
     }
     public static void main(String[] args) {
         int[] array = new int[]{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -46,11 +42,3 @@ public class Sem1Task4 {
         System.out.println("Исходящий массив" + Arrays.toString(array));
     }
 }
-/**
- * ВЫХЛОП:
- * Входящий массив[1, 2, 3, 4, 5, 6, 7, 8, 9]
- * Повернули вправо на 3
- * Исходящий массив[7, 8, 9, 1, 2, 3, 4, 5, 6]
- * Повернули влево на 2
- * Исходящий массив[9, 1, 2, 3, 4, 5, 6, 7, 8]
- */
