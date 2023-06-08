@@ -1,8 +1,6 @@
 package Seminars.Sem_1;
 
-import java.sql.Time;
 import java.time.LocalTime;
-import java.util.Date;
 import java.util.Scanner;
 
 /**
@@ -14,18 +12,15 @@ import java.util.Scanner;
  */
 public class Sem1Task3 {
     public static void main(String[] args) {
-        String username = "";
-        String wellcome = "";
+        String Welcome = "";
         System.out.print("введите Ваше имя: ");
         Scanner scanner = new Scanner(System.in);
-        if (scanner != null) {
-            username = scanner.next();
-        }
+        String username = scanner.next();
         LocalTime currentTime = LocalTime.now();
-        if (currentTime.isAfter(LocalTime.parse("05:00"))) wellcome = "Доброе утро ";
-        if (currentTime.isAfter(LocalTime.parse("12:00"))) wellcome = "Добрый день ";
-        if (currentTime.isAfter(LocalTime.parse("18:00"))) wellcome = "Добрый вечер ";
-        if (currentTime.isAfter(LocalTime.parse("23:00"))) wellcome = "Доброй ночи ";
-        System.out.println(wellcome + username);
+        if (currentTime.isAfter(LocalTime.parse("05:00"))) Welcome = "Доброе утро ";
+        if (currentTime.isAfter(LocalTime.parse("12:00"))) Welcome = "Добрый день ";
+        if (currentTime.isAfter(LocalTime.parse("18:00"))) Welcome = "Добрый вечер ";
+        if (currentTime.isAfter(LocalTime.parse("23:00"))) Welcome = "Доброй ночи ";
+        System.out.println(Welcome + username);
     }
 }
