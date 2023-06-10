@@ -3,12 +3,10 @@
  */
 package HomeWork.Sem_2;
 
-
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.logging.*;
-
 public class Sem2hw2 {
     public static int[] getArray(int length, int min, int max){
         Random rand = new Random();
@@ -19,11 +17,15 @@ public class Sem2hw2 {
     public static int[] bobbleSortArray(int[]array) throws IOException {
         // подключение логирования
         Logger logger = Logger.getLogger(Sem2hw2.class.getName());
-        logger.setUseParentHandlers(false);
-        FileHandler fh = new FileHandler("log.xml");
+        logger.setUseParentHandlers(false); //отключаем передачу в родителя
+
+        FileHandler fh = new FileHandler("log.txt");
+        SimpleFormatter sFormat = new SimpleFormatter();
+        fh.setFormatter(sFormat);
+        //FileHandler fh = new FileHandler("log.xml");
+        //XMLFormatter xml = new XMLFormatter();
+        //fh.setFormatter(xml);
         logger.addHandler(fh);
-        XMLFormatter xml = new XMLFormatter();
-        fh.setFormatter(xml);
 
         // сортировка пузырьком
         int[] arr = array.clone();
@@ -37,7 +39,7 @@ public class Sem2hw2 {
                     buf = arr[i];
                     arr[i] = arr[i+1];
                     arr[i+1] = buf;
-                    logger.info(arr[i] + "<=>" + arr[i+1] );
+                    logger.info(arr[i] + "<=>" + arr[i+1] ); // Вывод в лог
                 }
             }
         }
