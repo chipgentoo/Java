@@ -3,10 +3,12 @@
  */
 package HomeWork.Sem_2;
 
-import javax.sound.sampled.DataLine;
+
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.logging.ConsoleHandler;
+import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
@@ -20,16 +22,19 @@ public class Sem2hw2 {
     public static int[] bobbleSortArray(int[]array){
         // подключение логирования
         Logger logger = Logger.getLogger(Sem2hw2.class.getName());
-        ConsoleHandler ch = new ConsoleHandler();
-        logger.addHandler(ch);
+        FileHandler fh;
+        try {
+            fh = new FileHandler("log.txt");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        logger.addHandler(fh);
         SimpleFormatter sFormat = new SimpleFormatter();
-        ch.setFormatter(sFormat);
+        fh.setFormatter(sFormat);
 
         boolean isSorted = false;
         int buf;
-        int count = 0;
         while(!isSorted) {
-            logger.info("Проход №" + count);
             isSorted = true;
             for (int i = 0; i < array.length-1; i++) {
                 if(array[i] > array[i+1]){
@@ -40,11 +45,10 @@ public class Sem2hw2 {
                     logger.info(String.format("%d <=> %d", array[i], array[i + 1]));
                 }
             }
-            count++;
         }
         return array;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int[] array = getArray(20,1,20);
         System.out.println("Исх. массив: " + Arrays.toString(array));
         bobbleSortArray(array);
