@@ -1,4 +1,4 @@
-package Seminars.Sem_1;
+package HomeWork.Sem_1;
 
 import java.util.Scanner;
 

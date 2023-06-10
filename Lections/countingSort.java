@@ -1,6 +1,5 @@
-/**
- * Реализовать сортировку подсчетом.
- */
+package Lections;
+
 import java.util.Arrays;
 public class countingSort {
     public static void countsort(int[] arr, int k)
