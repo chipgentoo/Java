@@ -36,3 +36,6 @@ public class Sem2hw1 {
         System.out.println(strSQL + parsJSON + ";");
     }
 }
+
+
+// На выходе: select * from students where 'name'='Ivanov' and 'country'='Russia' and 'city'='Moscow' and 'tel'='+7(123)123-45-67';
