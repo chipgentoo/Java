@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-06-10T15:40:39.336680Z</date>
+  <millis>1686411639336</millis>
+  <nanos>680000</nanos>
+  <sequence>0</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>8 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.381369Z</date>
+  <millis>1686411639381</millis>
+  <nanos>369000</nanos>
+  <sequence>1</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.382987Z</date>
+  <millis>1686411639382</millis>
+  <nanos>987000</nanos>
+  <sequence>2</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>13 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.384842Z</date>
+  <millis>1686411639384</millis>
+  <nanos>842000</nanos>
+  <sequence>3</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.385894Z</date>
+  <millis>1686411639385</millis>
+  <nanos>894000</nanos>
+  <sequence>4</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.387547Z</date>
+  <millis>1686411639387</millis>
+  <nanos>547000</nanos>
+  <sequence>5</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>9 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.389266Z</date>
+  <millis>1686411639389</millis>
+  <nanos>266000</nanos>
+  <sequence>6</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>10 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.389811Z</date>
+  <millis>1686411639389</millis>
+  <nanos>811000</nanos>
+  <sequence>7</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.390275Z</date>
+  <millis>1686411639390</millis>
+  <nanos>275000</nanos>
+  <sequence>8</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>12 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.390746Z</date>
+  <millis>1686411639390</millis>
+  <nanos>746000</nanos>
+  <sequence>9</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 18</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.391202Z</date>
+  <millis>1686411639391</millis>
+  <nanos>202000</nanos>
+  <sequence>10</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 18</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.391665Z</date>
+  <millis>1686411639391</millis>
+  <nanos>665000</nanos>
+  <sequence>11</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 18</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.392176Z</date>
+  <millis>1686411639392</millis>
+  <nanos>176000</nanos>
+  <sequence>12</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>16 &lt;=&gt; 18</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.392673Z</date>
+  <millis>1686411639392</millis>
+  <nanos>673000</nanos>
+  <sequence>13</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 18</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.393161Z</date>
+  <millis>1686411639393</millis>
+  <nanos>161000</nanos>
+  <sequence>14</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>13 &lt;=&gt; 18</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.393641Z</date>
+  <millis>1686411639393</millis>
+  <nanos>641000</nanos>
+  <sequence>15</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.394126Z</date>
+  <millis>1686411639394</millis>
+  <nanos>126000</nanos>
+  <sequence>16</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>13 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.394615Z</date>
+  <millis>1686411639394</millis>
+  <nanos>615000</nanos>
+  <sequence>17</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.395104Z</date>
+  <millis>1686411639395</millis>
+  <nanos>104000</nanos>
+  <sequence>18</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.395618Z</date>
+  <millis>1686411639395</millis>
+  <nanos>618000</nanos>
+  <sequence>19</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>9 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.396146Z</date>
+  <millis>1686411639396</millis>
+  <nanos>146000</nanos>
+  <sequence>20</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>10 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.396679Z</date>
+  <millis>1686411639396</millis>
+  <nanos>679000</nanos>
+  <sequence>21</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.397176Z</date>
+  <millis>1686411639397</millis>
+  <nanos>176000</nanos>
+  <sequence>22</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>12 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.397652Z</date>
+  <millis>1686411639397</millis>
+  <nanos>652000</nanos>
+  <sequence>23</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.398159Z</date>
+  <millis>1686411639398</millis>
+  <nanos>159000</nanos>
+  <sequence>24</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.398630Z</date>
+  <millis>1686411639398</millis>
+  <nanos>630000</nanos>
+  <sequence>25</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.399116Z</date>
+  <millis>1686411639399</millis>
+  <nanos>116000</nanos>
+  <sequence>26</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.399595Z</date>
+  <millis>1686411639399</millis>
+  <nanos>595000</nanos>
+  <sequence>27</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>13 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.402882Z</date>
+  <millis>1686411639402</millis>
+  <nanos>882000</nanos>
+  <sequence>28</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.403367Z</date>
+  <millis>1686411639403</millis>
+  <nanos>367000</nanos>
+  <sequence>29</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.403777Z</date>
+  <millis>1686411639403</millis>
+  <nanos>777000</nanos>
+  <sequence>30</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.404169Z</date>
+  <millis>1686411639404</millis>
+  <nanos>169000</nanos>
+  <sequence>31</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>9 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.404581Z</date>
+  <millis>1686411639404</millis>
+  <nanos>581000</nanos>
+  <sequence>32</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>10 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.405291Z</date>
+  <millis>1686411639405</millis>
+  <nanos>291000</nanos>
+  <sequence>33</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.405723Z</date>
+  <millis>1686411639405</millis>
+  <nanos>723000</nanos>
+  <sequence>34</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>12 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.406088Z</date>
+  <millis>1686411639406</millis>
+  <nanos>88000</nanos>
+  <sequence>35</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.406461Z</date>
+  <millis>1686411639406</millis>
+  <nanos>461000</nanos>
+  <sequence>36</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.406799Z</date>
+  <millis>1686411639406</millis>
+  <nanos>799000</nanos>
+  <sequence>37</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.407123Z</date>
+  <millis>1686411639407</millis>
+  <nanos>123000</nanos>
+  <sequence>38</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.407446Z</date>
+  <millis>1686411639407</millis>
+  <nanos>446000</nanos>
+  <sequence>39</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>13 &lt;=&gt; 16</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.408352Z</date>
+  <millis>1686411639408</millis>
+  <nanos>352000</nanos>
+  <sequence>40</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 8</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.408993Z</date>
+  <millis>1686411639408</millis>
+  <nanos>993000</nanos>
+  <sequence>41</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.409385Z</date>
+  <millis>1686411639409</millis>
+  <nanos>385000</nanos>
+  <sequence>42</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.412052Z</date>
+  <millis>1686411639412</millis>
+  <nanos>52000</nanos>
+  <sequence>43</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>9 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.427724Z</date>
+  <millis>1686411639427</millis>
+  <nanos>724000</nanos>
+  <sequence>44</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.428186Z</date>
+  <millis>1686411639428</millis>
+  <nanos>186000</nanos>
+  <sequence>45</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.428573Z</date>
+  <millis>1686411639428</millis>
+  <nanos>573000</nanos>
+  <sequence>46</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.428953Z</date>
+  <millis>1686411639428</millis>
+  <nanos>953000</nanos>
+  <sequence>47</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.429715Z</date>
+  <millis>1686411639429</millis>
+  <nanos>715000</nanos>
+  <sequence>48</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.430560Z</date>
+  <millis>1686411639430</millis>
+  <nanos>560000</nanos>
+  <sequence>49</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>13 &lt;=&gt; 15</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.430958Z</date>
+  <millis>1686411639430</millis>
+  <nanos>958000</nanos>
+  <sequence>50</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.431294Z</date>
+  <millis>1686411639431</millis>
+  <nanos>294000</nanos>
+  <sequence>51</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 8</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.431620Z</date>
+  <millis>1686411639431</millis>
+  <nanos>620000</nanos>
+  <sequence>52</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 8</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.431941Z</date>
+  <millis>1686411639431</millis>
+  <nanos>941000</nanos>
+  <sequence>53</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.432449Z</date>
+  <millis>1686411639432</millis>
+  <nanos>449000</nanos>
+  <sequence>54</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 12</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.432763Z</date>
+  <millis>1686411639432</millis>
+  <nanos>763000</nanos>
+  <sequence>55</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 12</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.433031Z</date>
+  <millis>1686411639433</millis>
+  <nanos>31000</nanos>
+  <sequence>56</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 12</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.433373Z</date>
+  <millis>1686411639433</millis>
+  <nanos>373000</nanos>
+  <sequence>57</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 13</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.433677Z</date>
+  <millis>1686411639433</millis>
+  <nanos>677000</nanos>
+  <sequence>58</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>2 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.435892Z</date>
+  <millis>1686411639435</millis>
+  <nanos>892000</nanos>
+  <sequence>59</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 9</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.436197Z</date>
+  <millis>1686411639436</millis>
+  <nanos>197000</nanos>
+  <sequence>60</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.436457Z</date>
+  <millis>1686411639436</millis>
+  <nanos>457000</nanos>
+  <sequence>61</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.436713Z</date>
+  <millis>1686411639436</millis>
+  <nanos>713000</nanos>
+  <sequence>62</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.437042Z</date>
+  <millis>1686411639437</millis>
+  <nanos>42000</nanos>
+  <sequence>63</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 12</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.437584Z</date>
+  <millis>1686411639437</millis>
+  <nanos>584000</nanos>
+  <sequence>64</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 8</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.437987Z</date>
+  <millis>1686411639437</millis>
+  <nanos>987000</nanos>
+  <sequence>65</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.447472Z</date>
+  <millis>1686411639447</millis>
+  <nanos>472000</nanos>
+  <sequence>66</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.447907Z</date>
+  <millis>1686411639447</millis>
+  <nanos>907000</nanos>
+  <sequence>67</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.448303Z</date>
+  <millis>1686411639448</millis>
+  <nanos>303000</nanos>
+  <sequence>68</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.448671Z</date>
+  <millis>1686411639448</millis>
+  <nanos>671000</nanos>
+  <sequence>69</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.449031Z</date>
+  <millis>1686411639449</millis>
+  <nanos>31000</nanos>
+  <sequence>70</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 9</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.449367Z</date>
+  <millis>1686411639449</millis>
+  <nanos>367000</nanos>
+  <sequence>71</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 9</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.449706Z</date>
+  <millis>1686411639449</millis>
+  <nanos>706000</nanos>
+  <sequence>72</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 9</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.450384Z</date>
+  <millis>1686411639450</millis>
+  <nanos>384000</nanos>
+  <sequence>73</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 10</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.450986Z</date>
+  <millis>1686411639450</millis>
+  <nanos>986000</nanos>
+  <sequence>74</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>5 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.451428Z</date>
+  <millis>1686411639451</millis>
+  <nanos>428000</nanos>
+  <sequence>75</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>7 &lt;=&gt; 8</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.451837Z</date>
+  <millis>1686411639451</millis>
+  <nanos>837000</nanos>
+  <sequence>76</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 8</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.452590Z</date>
+  <millis>1686411639452</millis>
+  <nanos>590000</nanos>
+  <sequence>77</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 8</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.453419Z</date>
+  <millis>1686411639453</millis>
+  <nanos>419000</nanos>
+  <sequence>78</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 9</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.453935Z</date>
+  <millis>1686411639453</millis>
+  <nanos>935000</nanos>
+  <sequence>79</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.454305Z</date>
+  <millis>1686411639454</millis>
+  <nanos>305000</nanos>
+  <sequence>80</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.454677Z</date>
+  <millis>1686411639454</millis>
+  <nanos>677000</nanos>
+  <sequence>81</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 8</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.454998Z</date>
+  <millis>1686411639454</millis>
+  <nanos>998000</nanos>
+  <sequence>82</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.455320Z</date>
+  <millis>1686411639455</millis>
+  <nanos>320000</nanos>
+  <sequence>83</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.455652Z</date>
+  <millis>1686411639455</millis>
+  <nanos>652000</nanos>
+  <sequence>84</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.457008Z</date>
+  <millis>1686411639457</millis>
+  <nanos>8000</nanos>
+  <sequence>85</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.457566Z</date>
+  <millis>1686411639457</millis>
+  <nanos>566000</nanos>
+  <sequence>86</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.458638Z</date>
+  <millis>1686411639458</millis>
+  <nanos>638000</nanos>
+  <sequence>87</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.459111Z</date>
+  <millis>1686411639459</millis>
+  <nanos>111000</nanos>
+  <sequence>88</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 5</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.460751Z</date>
+  <millis>1686411639460</millis>
+  <nanos>751000</nanos>
+  <sequence>89</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>3 &lt;=&gt; 5</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.461446Z</date>
+  <millis>1686411639461</millis>
+  <nanos>446000</nanos>
+  <sequence>90</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 7</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.461859Z</date>
+  <millis>1686411639461</millis>
+  <nanos>859000</nanos>
+  <sequence>91</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 2</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.462594Z</date>
+  <millis>1686411639462</millis>
+  <nanos>594000</nanos>
+  <sequence>92</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 5</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.462946Z</date>
+  <millis>1686411639462</millis>
+  <nanos>946000</nanos>
+  <sequence>93</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 2</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.464188Z</date>
+  <millis>1686411639464</millis>
+  <nanos>188000</nanos>
+  <sequence>94</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 3</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.464642Z</date>
+  <millis>1686411639464</millis>
+  <nanos>642000</nanos>
+  <sequence>95</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 2</message>
+</record>
+<record>
+  <date>2023-06-10T15:40:39.465950Z</date>
+  <millis>1686411639465</millis>
+  <nanos>950000</nanos>
+  <sequence>96</sequence>
+  <logger>HomeWork.Sem_2.Sem2hw2</logger>
+  <level>INFO</level>
+  <class>HomeWork.Sem_2.Sem2hw2</class>
+  <method>bobbleSortArray</method>
+  <thread>1</thread>
+  <message>1 &lt;=&gt; 2</message>
+</record>
+</log>

@@ -7,10 +7,7 @@ package HomeWork.Sem_2;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.FileHandler;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
+import java.util.logging.*;
 
 public class Sem2hw2 {
     public static int[] getArray(int length, int min, int max){
@@ -19,19 +16,15 @@ public class Sem2hw2 {
         for (int i = 0; i < length; i++) array[i] = rand.nextInt((max - min) + 1) + min;
         return array;
     }
-    public static int[] bobbleSortArray(int[]array){
+    public static int[] bobbleSortArray(int[]array) throws IOException {
         // подключение логирования
         Logger logger = Logger.getLogger(Sem2hw2.class.getName());
-        FileHandler fh;
-        try {
-            fh = new FileHandler("log.txt");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        FileHandler fh = new FileHandler("log.xml");
         logger.addHandler(fh);
-        SimpleFormatter sFormat = new SimpleFormatter();
-        fh.setFormatter(sFormat);
+        XMLFormatter xml = new XMLFormatter();
+        fh.setFormatter(xml);
 
+        // сортировка пузырьком
         boolean isSorted = false;
         int buf;
         while(!isSorted) {
@@ -42,13 +35,13 @@ public class Sem2hw2 {
                     buf = array[i];
                     array[i] = array[i+1];
                     array[i+1] = buf;
-                    logger.info(String.format("%d <=> %d", array[i], array[i + 1]));
+                    logger.info(array[i] + "<=>" + array[i+1] );
                 }
             }
         }
         return array;
     }
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         int[] array = getArray(20,1,20);
         System.out.println("Исх. массив: " + Arrays.toString(array));
         bobbleSortArray(array);
