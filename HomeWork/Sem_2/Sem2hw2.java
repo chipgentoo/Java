@@ -19,32 +19,34 @@ public class Sem2hw2 {
     public static int[] bobbleSortArray(int[]array) throws IOException {
         // подключение логирования
         Logger logger = Logger.getLogger(Sem2hw2.class.getName());
+        logger.setUseParentHandlers(false);
         FileHandler fh = new FileHandler("log.xml");
         logger.addHandler(fh);
         XMLFormatter xml = new XMLFormatter();
         fh.setFormatter(xml);
 
         // сортировка пузырьком
+        int[] arr = array.clone();
         boolean isSorted = false;
         int buf;
         while(!isSorted) {
             isSorted = true;
-            for (int i = 0; i < array.length-1; i++) {
-                if(array[i] > array[i+1]){
+            for (int i = 0; i < arr.length-1; i++) {
+                if(arr[i] > arr[i+1]){
                     isSorted = false;
-                    buf = array[i];
-                    array[i] = array[i+1];
-                    array[i+1] = buf;
-                    logger.info(array[i] + "<=>" + array[i+1] );
+                    buf = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = buf;
+                    logger.info(arr[i] + "<=>" + arr[i+1] );
                 }
             }
         }
-        return array;
+        return arr;
     }
     public static void main(String[] args) throws IOException {
-        int[] array = getArray(20,1,20);
-        System.out.println("Исх. массив: " + Arrays.toString(array));
-        bobbleSortArray(array);
-        System.out.println("Рез. массив: " + Arrays.toString(array));
+        int[] array1 = getArray(10,1,10);
+        int[] array2 = bobbleSortArray(array1);
+        System.out.println("Исх. массив: " + Arrays.toString(array1));
+        System.out.println("Рез. массив: " + Arrays.toString(array2));
     }
 }
