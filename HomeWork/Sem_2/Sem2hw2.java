@@ -1,7 +1,7 @@
 /**
  * Реализуйте алгоритм сортировки пузырьком числового массива, результат после каждой итерации запишите в лог-файл.
  */
-package HomeWork.Sem_2;
+package Sem_2;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -20,11 +20,12 @@ public class Sem2hw2 {
         logger.setUseParentHandlers(false); //отключаем передачу в родителя
 
         FileHandler fh = new FileHandler("log.txt");
+        // FileHandler fh = new FileHandler("log.xml");
         SimpleFormatter sFormat = new SimpleFormatter();
+        // XMLFormatter xml = new XMLFormatter();
         fh.setFormatter(sFormat);
-        //FileHandler fh = new FileHandler("log.xml");
-        //XMLFormatter xml = new XMLFormatter();
-        //fh.setFormatter(xml);
+        // fh.setFormatter(xml);
+
         logger.addHandler(fh);
 
         // сортировка пузырьком
