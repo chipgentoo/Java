@@ -10,13 +10,13 @@
  * Студент Петрова получил 4 по предмету Информатика.
  * Студент Краснов получил 5 по предмету Физика.
  */
-package HomeWork.Sem_2;
+package Sem_2;
 
 import java.io.*;
 
 public class Sem2hw3 {
 
-    private static String fileName = "inJSON.txt";
+    private static final String fileName = "inJSON.txt";
 
     public static String readJSONFile(String fileName) throws IOException {
         String strJSON = "";
