@@ -6,10 +6,9 @@
  * Параметры для фильтрации:
  * {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
  */
-package HomeWork.Sem_2;
+package Sem_2;
 public class Sem2hw1 {
     public static String parserJSON(String strJSON){
-        String strSQL;
         String[] strArray;
         StringBuilder sb = new StringBuilder();
 
