@@ -6,7 +6,7 @@
  * 3) Найти среднее значение
  * 4) Нужно удалить из него чётные числа
  */
-package HomeWork.Sem_3;
+package Sem_3;
 
 import java.util.ArrayList;
 import java.util.List;
