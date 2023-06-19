@@ -22,8 +22,35 @@
  */
 package HomeWork.Sem_4;
 
-public class Sem2hw1 {
-    public static void main(String[] args) {
+import java.util.LinkedList;
+import java.util.Scanner;
 
+public class Sem4hw1 {
+    public static void main(String[] args) {
+        LinkedList <String> storage = new LinkedList<>();
+        Scanner scanner = new Scanner(System.in);
+
+        while (true){
+            String command = scanner.next();
+            if ("exit".equals(command)) {
+                System.out.println("Программа завершена.");
+                break;
+            }
+
+            if ("revert".equals(command)) {
+                if (!storage.isEmpty()){
+                    storage.removeFirst();
+                } else {
+                    System.out.println("Нечего удалять!");
+                }
+                continue;
+            }
+
+            if ("print".equals(command)){
+                System.out.println(storage);
+            } else {
+                storage.addFirst(command);
+            }
+        }
     }
 }
