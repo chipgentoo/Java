@@ -29,7 +29,7 @@ public class Sem5hw1 {
     public static void main(String[] args) {
         HashMap <String, ArrayList<String>> mapUser = new HashMap<>();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("ADD Фамилия Телефон | GET Фамилия | REMOVE Фамилия | LIST | EXIT");
+        System.out.println("ADD Фамилия Телефон(без пробелов) | GET Фамилия | REMOVE Фамилия | LIST | EXIT");
         while (true) {
             System.out.print("Введите команду: ");
 
@@ -82,3 +82,24 @@ public class Sem5hw1 {
         } // end while(true)
     }
 }
+/**
+ * =============== ПРОГРАМНЫЙ ВЫХЛОП ===============
+ * ADD Фамилия Телефон(без пробелов) | GET Фамилия | REMOVE Фамилия | LIST | EXIT
+ * Введите команду: ADD Ivanov 88005003535
+ * Введите команду: ADD Ivanov 88001001010
+ * Введите команду: GET Ivanov
+ * Ivanov=>[88005003535, 88001001010]
+ * Введите команду: ADD Petrov 85551234
+ * Введите команду: LIST
+ * {Petrov=[85551234], Ivanov=[88005003535, 88001001010]}
+ * Введите команду: REMOVE Ivanov
+ * Запись удалена!
+ * Введите команду: LIST
+ * {Petrov=[85551234]}
+ * Введите команду: GET Pronin
+ * Фамилия не найдена
+ * Введите команду: REMOVE Pronin
+ * Фамилия не найдена
+ * Введите команду: EXIT
+ * Программа завершена!
+ */
