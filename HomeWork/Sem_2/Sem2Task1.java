@@ -1,4 +1,4 @@
-package HomeWork.Sem_2;
+package Sem_2;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -9,9 +9,7 @@ import java.nio.charset.StandardCharsets;
 public class Sem2Task1 {
     public static StringBuilder createdString(String str, int number){
         StringBuilder someStr = new StringBuilder();
-        for (int i = 0; i < number; i++) {
-            someStr.append(str);
-        }
+        someStr.append(String.valueOf(str).repeat(Math.max(0, number)));
         return someStr;
     }
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HomeWork.Sem_2;
+package Sem_2;
 
 import java.io.File;
 import java.io.FileOutputStream;

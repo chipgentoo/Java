@@ -1,4 +1,4 @@
-package HomeWork.Sem_1;
+package Sem_1;
 
 import java.time.LocalTime;
 import java.util.Scanner;
