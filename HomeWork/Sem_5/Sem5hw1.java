@@ -40,32 +40,32 @@ public class Sem5hw1 {
             }
 
             String[] arrayParam = inputLine.trim().split(" "); // 0-Команда, 1-Фамилия, 2-Телефон
-            int amtParam = arrayParam.length; // кол-во введенных параметров
+            int paramCount = arrayParam.length; // кол-во введенных параметров
 
-            String command = "", user = "", tel = ""; // инициализация для работы в if`ах
-            if (amtParam > 0) { command = arrayParam[0];}   // В зависимости от кол-ва параметров
-            if (amtParam > 1) { user = arrayParam[1];}      // получаем их в определенные переменные
-            if (amtParam > 2) { tel = arrayParam[2];}       // чтобы лишний раз не читать массив
+            String command = "", user = "", tel = "";       // Инициализация для работы в if`ах.
+            if (paramCount > 0) { command = arrayParam[0];} // В зависимости от кол-ва параметров
+            if (paramCount > 1) { user = arrayParam[1];}    // получаем их в определенные переменные
+            if (paramCount > 2) { tel = arrayParam[2];}     // чтобы лишний раз не читать массив
 
             switch (command){ // мечемся по командам
                 case "ADD": // 3 параметра: Команда, Фамилия, Телефон
-                    if (amtParam != 3){ System.out.println("Неверное кол-во аргументов!"); continue; }
-                    ArrayList<String> lstPhone = null;  // По другому не получается!!!
+                    if (paramCount != 3){ System.out.println("Неверное кол-во аргументов!"); continue; }
+                    ArrayList<String> lstPhone; // null
                     if (mapUser.get(user) == null){     // Если записи не существует
                         lstPhone = new ArrayList<>();   // создаем новый список
                     } else {                            // иначе
                         lstPhone = mapUser.get(user);   // считываем его из HASHMAP как значение
                     }
-                    lstPhone.add(tel);                  // добавляем телефон к списку
-                    mapUser.put(user,lstPhone);         // сохраняем обратно
+                    lstPhone.add(tel);          // добавляем телефон к списку
+                    mapUser.put(user,lstPhone); // сохраняем обратно
                     continue;
                 case "GET": // 2 параметра: Команда, Фамилия
-                    if (amtParam != 2){ System.out.println("Неверное кол-во аргументов!"); continue; }
+                    if (paramCount != 2){ System.out.println("Неверное кол-во аргументов!"); continue; }
                     if (mapUser.get(user) == null) { System.out.println("Фамилия не найдена"); continue; }
                     System.out.println(user + "=>" + mapUser.get(user));
                     continue;
                 case "REMOVE": // 2 параметра: Команда, Фамилия
-                    if (amtParam != 2){ System.out.println("Неверное кол-во аргументов!"); continue; }
+                    if (paramCount != 2){ System.out.println("Неверное кол-во аргументов!"); continue; }
                     if (mapUser.get(user) == null) {
                         System.out.println("Фамилия не найдена");
                     } else {
