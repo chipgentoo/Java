@@ -22,9 +22,7 @@
  * REMOVE NoName => Не найдена запись с фамилией "NoName"3
  */
 package HomeWork.Sem_5;
-
 import java.util.*;
-
 public class Sem5hw1 {
     public static void main(String[] args) {
         HashMap <String, ArrayList<String>> mapUser = new HashMap<>();
@@ -32,21 +30,14 @@ public class Sem5hw1 {
         System.out.println("ADD Фамилия Телефон(без пробелов) | GET Фамилия | REMOVE Фамилия | LIST | EXIT");
         while (true) {
             System.out.print("Введите команду: ");
-
             String inputLine = scanner.nextLine();
-            if ("EXIT".equals(inputLine)){
-                System.out.println("Программа завершена!");
-                break;
-            }
-
+            if ("EXIT".equals(inputLine)){ System.out.println("Программа завершена!"); break; }
             String[] arrayParam = inputLine.trim().split(" "); // 0-Команда, 1-Фамилия, 2-Телефон
             int paramCount = arrayParam.length; // кол-во введенных параметров
-
             String command = "", user = "", tel = "";       // Инициализация для работы в if`ах.
             if (paramCount > 0) { command = arrayParam[0];} // В зависимости от кол-ва параметров
             if (paramCount > 1) { user = arrayParam[1];}    // получаем их в определенные переменные
             if (paramCount > 2) { tel = arrayParam[2];}     // чтобы лишний раз не читать массив
-
             switch (command){ // мечемся по командам
                 case "ADD": // 3 параметра: Команда, Фамилия, Телефон
                     if (paramCount != 3){ System.out.println("Неверное кол-во аргументов!"); continue; }
