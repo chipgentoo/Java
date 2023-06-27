@@ -20,7 +20,7 @@
  * < []
  * > revert -> throw new NoSuchElementException
  */
-package HomeWork.Sem_4;
+package HomeWork.Part_1.Sem_4;
 
 import java.util.LinkedList;
 import java.util.Scanner;

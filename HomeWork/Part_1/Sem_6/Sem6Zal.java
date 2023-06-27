@@ -1,7 +1,7 @@
 /**
  * Напишите метод, который заполнит массив из 1000 элементов случайными цифрами от 0 до 1000.
  */
-package HomeWork.Sem_6;
+package HomeWork.Part_1.Sem_6;
 
 import java.util.*;
 

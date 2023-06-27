@@ -21,7 +21,7 @@
  * GET NoName => Не найдена запись с фамилией "NoName"
  * REMOVE NoName => Не найдена запись с фамилией "NoName"3
  */
-package HomeWork.Sem_5;
+package HomeWork.Part_1.Sem_5;
 import java.util.*;
 public class Sem5hw1 {
     public static void main(String[] args) {

@@ -1,30 +1,30 @@
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 6<=>7
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 3<=>7
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 4<=>10
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 8<=>10
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 8<=>10
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 9<=>10
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 3<=>6
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 4<=>9
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 8<=>10
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 8<=>10
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 9<=>10
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 4<=>7
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 8<=>9
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 8<=>9
-июн. 10, 2023 7:42:02 PM HomeWork.Sem_2.Sem2hw2 bobbleSortArray
+июн. 10, 2023 7:42:02 PM HomeWork.Part_1.Sem_2.Sem2hw2 bobbleSortArray
 INFO: 4<=>6
