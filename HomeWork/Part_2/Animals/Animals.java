@@ -1,7 +1,4 @@
-package HomeWork.Part_2;
-
-import java.util.Timer;
-import java.util.TimerTask;
+package HomeWork.Part_2.Animals;
 
 /**
  *  Абстрактный класс - Animals (Животные)
@@ -12,8 +9,6 @@ public abstract class Animals {
 
     // ========== ИМЯ / КЛИЧКА ==========
     protected String animalName;
-    protected String getAnimalName() { return animalName; }
-    protected void setAnimalName(String animalName) { this.animalName = animalName; }
 
     // ========== ВОЗРАСТ ==========
     protected float animalAge;
@@ -21,13 +16,9 @@ public abstract class Animals {
 
     // ========== ВЕС ==========
     protected float animalWeight;
-    public float getAnimalWeight() { return animalWeight; }
-    public void setAnimalWeight(float animalWeight) { this.animalWeight = animalWeight;}
 
     // ========== ГОЛОС ==========
     protected String animalVoice;
-    public void setAnimalVoice(String animalVoice) { this.animalVoice = animalVoice; }
-    public String getAnimalVoice() { return animalVoice; }
 
     // ========== ПРОЧЕЕ ==========
     protected int countFeeding;  // кол-во кормлений
