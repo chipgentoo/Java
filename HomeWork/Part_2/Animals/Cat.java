@@ -1,4 +1,4 @@
-package HomeWork.Part_2;
+package HomeWork.Part_2.Animals;
 
 public class Cat extends Animals{
     public Cat(String catName) {
