@@ -1,12 +1,12 @@
 package HomeWork.Part_2.Animals;
 
-public class Cat extends Animals{
-    public Cat(String catName) {
-        this.animalType = enumAnimalType.CAT;
-        this.animalName = catName;
-        this.animalVoice = "Мяу-Мяу";
+public class Dog extends Animals{
+    public Dog(String dogName) {
+        this.animalType = enumAnimalType.DOG;
+        this.animalName = dogName;
+        this.animalVoice = "Гав-Гав";
         this.animalAge = super.getAnimalAge();
-        this.animalWeight = 0.1f; // котенок
+        this.animalWeight = 0.3f; // щенок
     }
 
     @Override
