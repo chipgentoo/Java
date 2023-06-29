@@ -36,9 +36,6 @@ public abstract class Animals {
         this.animalCountView = 0;
         this.leftoverFood = 0f;
     }
-
-    public abstract void toFeed(float eatValue);
-
     @Override
     public String toString() {
         animalCountView += 1; // контроль роста
@@ -50,7 +47,7 @@ public abstract class Animals {
                 "Съедено еды: " + eatVolume + ", " +
                 "Сытость: " + animalSatiety;
     }
-    protected void toFeed(){
+    protected void toFeed(float eatValue){
         this.eatVolume += volumeFeed;
         this.animalWeight = volumeFeed / 2;
         this.countFeeding += 1;
