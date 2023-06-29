@@ -52,6 +52,6 @@ public abstract class Animals {
         this.animalWeight = volumeFeed / 2;
         this.countFeeding += 1;
         this.animalSatiety = true;
-        System.out.print("Животное поело");
+        System.out.println("Животное поело");
     }
 }
