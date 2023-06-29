@@ -1,4 +1,4 @@
-package HomeWork.Part_2.Animals;
+package Part_2.Animals;
 
 /**
  *  Абстрактный класс - Animals (Животные)
@@ -10,8 +10,12 @@ public abstract class Animals {
     protected float animalAge;
     protected float animalWeight;
     protected String animalVoice;
-    protected int countFeeding;  // кол-во кормлений
-    protected Double eatVolume; // кол-во съеденной еды
+    // ========== ЕДА ==========
+    protected float volumeFeed; // кол-во, съедаемое за раз
+    protected int countFeeding; // кол-во кормлений
+    protected float eatVolume;  // кол-во съеденной еды
+    protected float leftoverFood; // Остаток еды в кормушке
+    // ==========  ==========
     protected boolean animalMove; // Гуляет / Играет / Двигается
     protected boolean animalSleep; // Сон / Спать
     protected boolean animalSatiety; // Сытость
@@ -20,16 +24,20 @@ public abstract class Animals {
     // ========== РЕАЛИЗАЦИЯ ==========
     protected float getAnimalAge() { return animalAge; } // default 0;
     protected int animalCountView; // кол-во осмотров животного / контроль роста
+
     public Animals() {
-        this.animalAge = 0F;
-        this.animalWeight = 0F;
+        this.animalAge = 0f;
+        this.animalWeight = 0f;
         this.countFeeding = 0;
-        this.eatVolume = 0D;
+        this.eatVolume = 0f;
         this.animalMove = false;
         this.animalSleep= false;
         this.animalSatiety = false;
         this.animalCountView = 0;
+        this.leftoverFood = 0f;
     }
+
+    public abstract void toFeed(float eatValue);
 
     @Override
     public String toString() {
@@ -41,5 +49,12 @@ public abstract class Animals {
                 "Кол-во кормлений: " + countFeeding + ", " +
                 "Съедено еды: " + eatVolume + ", " +
                 "Сытость: " + animalSatiety;
+    }
+    protected void toFeed(){
+        this.eatVolume += volumeFeed;
+        this.animalWeight = volumeFeed / 2;
+        this.countFeeding += 1;
+        this.animalSatiety = true;
+        System.out.print("Животное поело");
     }
 }

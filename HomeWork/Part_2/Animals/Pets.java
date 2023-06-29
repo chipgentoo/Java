@@ -1,10 +1,12 @@
-package HomeWork.Part_2.Animals;
+package Part_2.Animals;
 
 public class Pets {
     public static void main(String[] args) {
         Cat cat1 = new Cat("Кот");
-        Dog dog1 = new Dog("Пёс");
         System.out.println(cat1);
-        System.out.println(dog1);
+        for (int i = 0; i < 6; i++) {
+            cat1.toFeed();
+            System.out.println(cat1);
+        }
     }
 }

@@ -1,4 +1,4 @@
-package HomeWork.Part_2.Animals;
+package Part_2.Animals;
 
 public class Dog extends Animals{
     public Dog(String dogName) {
@@ -7,6 +7,11 @@ public class Dog extends Animals{
         this.animalVoice = "Гав-Гав";
         this.animalAge = super.getAnimalAge();
         this.animalWeight = 0.3f; // щенок
+    }
+
+    @Override
+    public void toFeed(float eatValue) {
+
     }
 
     @Override
