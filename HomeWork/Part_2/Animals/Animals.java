@@ -98,9 +98,10 @@ public abstract class Animals {
     }
     protected void addEat(){ // добавление еды в кормушку
         System.out.print("Добавьте еды в кормушку " + this.animalName + ": ");
-        Scanner scanner = new Scanner(System.in);
-        if (scanner.hasNextFloat()){
-            this.toFeed(scanner.nextFloat());
+        try (Scanner scanner = new Scanner(System.in)) {
+            if (scanner.hasNextFloat()){
+                this.toFeed(scanner.nextFloat());
+            }
         }
     }
 
