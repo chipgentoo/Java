@@ -1,19 +1,14 @@
 package Part_2.Animals;
 
 public class Dog extends Animals{
-    public Dog(String dogName) {
-        this.animalType = enumAnimalType.DOG;
-        this.animalName = dogName;
-        this.animalVoice = "Гав-Гав";
-        this.animalAge = super.getAnimalAge();
-        this.animalWeight = 0.3f; // щенок
+    public Dog() {
+        super.animalType = enumAnimalType.DOG;
+        super.animalName = "Щенок_" + countAnimal;
+        super.animalVoice = "Тяф-Тяф";
+        super.animalAge = super.getAnimalAge();
+        super.volumeFeed = 0.2f;    // потребление еды за раз
+        super.animalWeight = 0.2f;  // начальный вес
     }
-
-    @Override
-    public void toFeed(float eatValue) {
-
-    }
-
     @Override
     public String toString() {
         return  "Тип: " + animalType + ", " + super.toString();
