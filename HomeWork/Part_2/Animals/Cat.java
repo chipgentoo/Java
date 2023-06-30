@@ -1,21 +1,13 @@
 package Part_2.Animals;
 
 public class Cat extends Animals{
-    public Cat(String catName) {
+    public Cat() {
         super.animalType = enumAnimalType.CAT;
-        this.animalName = catName;
+        super.animalName = "Котейка_" + countAnimal;
         super.animalVoice = "Мяу-Мяу";
         super.animalAge = super.getAnimalAge();
-        super.volumeFeed = 0.1f;
-        this.animalWeight = 0.1f; // котенок
-    }
-    @Override
-    public void toFeed(float eatValue){
-        super.eatVolume += volumeFeed;
-        this.animalWeight = volumeFeed / 2;
-        super.countFeeding += 1;
-        super.animalSatiety = true;
-        System.out.print("Животное поело");
+        super.volumeFeed = 0.1f;    // потребление еды за раз
+        super.animalWeight = 0.1f;  // начальный вес
     }
     @Override
     public String toString() {
