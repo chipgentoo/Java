@@ -1,4 +1,4 @@
-package Part_2.Animals;
+package HomeWork.Part_2.Animals;
 
 import java.util.ArrayList;
 

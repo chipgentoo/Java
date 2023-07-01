@@ -1,4 +1,4 @@
-package Part_2.Animals;
+package HomeWork.Part_2.Animals;
 
 public class Dog extends Animals{
     public Dog() {
