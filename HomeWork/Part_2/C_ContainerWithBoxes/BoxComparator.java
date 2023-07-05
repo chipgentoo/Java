@@ -1,4 +1,4 @@
-package Part_2.C_ContainerWithBoxes;
+package HomeWork.Part_2.C_ContainerWithBoxes;
 
 import java.util.Comparator;
 
