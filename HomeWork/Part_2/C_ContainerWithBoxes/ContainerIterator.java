@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
 
 public class ContainerIterator implements Iterator<Box> {
     private final List<Box> boxList;
-    private int curPoint;
+    private int curPosition;
     private int lastPosition;
 
     public ContainerIterator(List<Box> boxList) {
@@ -15,7 +15,7 @@ public class ContainerIterator implements Iterator<Box> {
 
     @Override
     public boolean hasNext() {
-        return curPoint < boxList.size();
+        return curPosition < boxList.size();
     }
 
     @Override
@@ -23,16 +23,16 @@ public class ContainerIterator implements Iterator<Box> {
         if (!hasNext()){
             throw new NoSuchElementException();
         }
-        lastPosition = curPoint + 1;
-        return boxList.get(curPoint++);
+        lastPosition = curPosition + 1;
+        return boxList.get(curPosition++);
     }
 
     @Override
     public void remove() {
-        if (curPoint <= 0 || lastPosition == -1){
+        if (curPosition <= 0 || lastPosition == -1){
             throw new IllegalStateException();
         }
-        boxList.remove(--curPoint);
+        boxList.remove(--curPosition);
         lastPosition = -1;
     }
 }
