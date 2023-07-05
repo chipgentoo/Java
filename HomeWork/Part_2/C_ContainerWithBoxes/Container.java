@@ -13,6 +13,14 @@ public class Container implements Iterable<Box> {
     public Container() {
         boxList = new ArrayList<>();
     }
+    public int getWeight(){
+        int contWeight = 0;
+        if (boxList.size() == 0) return contWeight; // на <= ругается.
+        for (Box box : boxList) {
+            contWeight += box.getWeight();
+        }
+        return contWeight;
+    }
 
     public void addBox(Box box){
         boxList.add(box);
