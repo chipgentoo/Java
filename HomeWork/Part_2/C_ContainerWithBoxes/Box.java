@@ -11,7 +11,7 @@ public class Box implements Comparable<Box> {
 
     @Override
     public int compareTo(Box o) {
-        //return (int) (id - o.id);
-        return Integer.compare(this.weight,o.weight);
+        return (int) (id - o.id);
+        //return Integer.compare(this.weight,o.weight);
     }
 }
