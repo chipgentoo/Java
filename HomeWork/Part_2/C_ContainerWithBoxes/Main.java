@@ -14,23 +14,26 @@ public class Main {
 
         var boxes = container.getBoxList();
 
-        //boxes.sort(Comparator.reverseOrder());
+        boxes.sort(Comparator.naturalOrder());
         //System.out.println(boxes);
 
-//        for (Box box : container) {
-//            System.out.println(box);
-//        }
+        for (Box box : boxes) {
+            System.out.println(box);
+        }
+        System.out.printf("Общий вес контейнера: %s%n", container.getWeight());
 
         Iterator<Box> boxIterator = container.iterator();
         while (boxIterator.hasNext()){
             Box box = boxIterator.next();
-            System.out.printf("ID:%s\tWeigth:%s\tName:%s%n", box.getId(),box.getWeight(),box.getBoxName());
+            //System.out.printf("ID:%s\tWeigh:%s\tName:%s%n", box.getId(),box.getWeight(),box.getBoxName());
             if(box.getBoxName().equals("box 2")) {
                 boxIterator.remove();
+                System.out.println("Удалили box 2");
             }
         }
-        for (Box box : container) {
+        for (Box box : boxes) {
             System.out.println(box);
         }
+        System.out.printf("Общий вес контейнера: %s", container.getWeight());
     }
 }
