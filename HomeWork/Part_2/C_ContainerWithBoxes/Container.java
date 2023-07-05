@@ -1,4 +1,4 @@
-package Part_2.C_ContainerWithBoxes;
+package HomeWork.Part_2.C_ContainerWithBoxes;
 
 import lombok.Getter;
 
@@ -7,10 +7,12 @@ import java.util.Iterator;
 import java.util.List;
 
 @Getter
-public class Container implements Iterable<Box> {
+public class Container implements Iterable<Box>, Comparable<Container> {
     private final List<Box> boxList;
 
-    public Container() {
+    public String containerName;
+    public Container(String contName) {
+        this.containerName = contName;
         boxList = new ArrayList<>();
     }
     public int getWeight(){
@@ -29,5 +31,10 @@ public class Container implements Iterable<Box> {
     @Override
     public Iterator<Box> iterator() {
         return new ContainerIterator(boxList);
+    }
+
+    @Override
+    public int compareTo(Container o) {
+        return Integer.compare(this.getWeight(), o.getWeight());
     }
 }
