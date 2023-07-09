@@ -1,4 +1,4 @@
-package Part_2.B_Game;
+package HomeWork.Part_2.B_Game;
 
 public class Homework_v2 {
     public static final String ANSI_RESET   = "\u001B[0m";
