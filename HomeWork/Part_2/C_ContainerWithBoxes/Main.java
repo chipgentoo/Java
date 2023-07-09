@@ -1,7 +1,5 @@
 package HomeWork.Part_2.C_ContainerWithBoxes;
 
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Iterator;
 
 public class Main {
