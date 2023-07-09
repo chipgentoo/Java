@@ -1,4 +1,4 @@
-package Part_2.B_Game;
+package HomeWork.Part_2.B_Game;
 
 import java.lang.reflect.*;
 
