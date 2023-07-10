@@ -2,7 +2,7 @@ package HomeWork.Part_2.D_FruitBox;
 
 public class Main {
     public static void main(String[] args) {
-        Box<String> stringBox = new Box<>(); // не должно компилироваться
+        //Box<String> stringBox = new Box<>(); // не должно компилироваться
 
         Box<Orange> orangeBox = new Box<>();
         orangeBox.add(new Orange(1));
