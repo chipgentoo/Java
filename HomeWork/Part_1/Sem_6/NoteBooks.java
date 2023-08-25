@@ -1,4 +1,4 @@
-package HomeWork.Part_1.Sem_6;
+package Part_1.Sem_6;
 
 import java.util.Objects;
 import java.util.Random;

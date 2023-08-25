@@ -1,4 +1,4 @@
-package HomeWork.Part_4.Sem_3.model;
+package Part_4.Sem_3.model;
 
 import java.util.Date;
 

@@ -1,10 +1,10 @@
-package HomeWork.Part_4.Sem_3;
+package Part_4.Sem_3;
 
-import HomeWork.Part_4.Sem_3.controller.HumanController;
-import HomeWork.Part_4.Sem_3.model.Human;
-import HomeWork.Part_4.Sem_3.repository.HumanRepository;
-import HomeWork.Part_4.Sem_3.service.HumanService;
-import HomeWork.Part_4.Sem_3.view.HumanView;
+import Part_4.Sem_3.controller.HumanController;
+import Part_4.Sem_3.model.Human;
+import Part_4.Sem_3.repository.HumanRepository;
+import Part_4.Sem_3.service.HumanService;
+import Part_4.Sem_3.view.HumanView;
 
 import java.io.IOException;
 import java.util.Scanner;

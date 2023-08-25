@@ -5,7 +5,7 @@
  * в) информационной системой Театра кошек Ю. Д. Куклачёва
  * Можно записать в текстовом виде, не обязательно реализовывать в java.
  */
-package HomeWork.Part_1.Sem_6;
+package Part_1.Sem_6;
 
 import java.util.Objects;
 

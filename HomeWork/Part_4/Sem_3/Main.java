@@ -1,4 +1,4 @@
-package HomeWork.Part_4.Sem_3;
+package Part_4.Sem_3;
 
 public class Main {
     public static void main(String[] args){
