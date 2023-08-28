@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class MainApp {
 
-    public static String[] array_art = new String[100];
     public void start() {
 
         Toy toy = new Toy();
