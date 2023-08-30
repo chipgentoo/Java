@@ -1,16 +1,16 @@
-package HomeWork.Part_2.E_University;
+package Part_2.E_University;
 
-import HomeWork.Part_2.E_University.controllers.GroupController;
-import HomeWork.Part_2.E_University.controllers.StudentController;
-import HomeWork.Part_2.E_University.controllers.TeacherController;
-import HomeWork.Part_2.E_University.repositories.StudentRepository;
-import HomeWork.Part_2.E_University.repositories.TeacherRepository;
-import HomeWork.Part_2.E_University.services.GroupService;
-import HomeWork.Part_2.E_University.services.StudentService;
-import HomeWork.Part_2.E_University.services.TeacherService;
-import HomeWork.Part_2.E_University.view.GroupView;
-import HomeWork.Part_2.E_University.view.StudentView;
-import HomeWork.Part_2.E_University.view.TeacherView;
+import Part_2.E_University.controllers.GroupController;
+import Part_2.E_University.controllers.StudentController;
+import Part_2.E_University.controllers.TeacherController;
+import Part_2.E_University.repositories.StudentRepository;
+import Part_2.E_University.repositories.TeacherRepository;
+import Part_2.E_University.services.GroupService;
+import Part_2.E_University.services.StudentService;
+import Part_2.E_University.services.TeacherService;
+import Part_2.E_University.view.GroupView;
+import Part_2.E_University.view.StudentView;
+import Part_2.E_University.view.TeacherView;
 
 import java.util.Arrays;
 import java.util.Scanner;

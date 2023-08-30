@@ -1,4 +1,4 @@
-package HomeWork.Part_2.E_University.models;
+package Part_2.E_University.models;
 
 import lombok.Data;
 

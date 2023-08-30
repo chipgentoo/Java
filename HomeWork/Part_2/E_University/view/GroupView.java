@@ -1,6 +1,6 @@
-package HomeWork.Part_2.E_University.view;
+package Part_2.E_University.view;
 
-import HomeWork.Part_2.E_University.controllers.GroupController;
+import Part_2.E_University.controllers.GroupController;
 
 public class GroupView {
     private final GroupController controller;

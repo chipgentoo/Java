@@ -1,8 +1,8 @@
-package HomeWork.Part_2.E_University.view;
+package Part_2.E_University.view;
 
-import HomeWork.Part_2.E_University.controllers.UserController;
-import HomeWork.Part_2.E_University.models.Student;
-import HomeWork.Part_2.E_University.models.Teacher;
+import Part_2.E_University.controllers.UserController;
+import Part_2.E_University.models.Student;
+import Part_2.E_University.models.Teacher;
 
 import java.util.List;
 

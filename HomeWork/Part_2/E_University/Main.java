@@ -1,4 +1,4 @@
-package HomeWork.Part_2.E_University;
+package Part_2.E_University;
 
 public class Main {
 

@@ -1,6 +1,6 @@
-package HomeWork.Part_2.E_University.services;
+package Part_2.E_University.services;
 
-import HomeWork.Part_2.E_University.models.User;
+import Part_2.E_University.models.User;
 
 import java.util.List;
 

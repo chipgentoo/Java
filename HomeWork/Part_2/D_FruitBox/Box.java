@@ -1,4 +1,4 @@
-package HomeWork.Part_2.D_FruitBox;
+package Part_2.D_FruitBox;
 
 import java.util.ArrayList;
 import java.util.List;

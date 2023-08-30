@@ -1,4 +1,4 @@
-package HomeWork.Part_2.E_University.view;
+package Part_2.E_University.view;
 
 public interface UserView {
     void sendOnConsole(); //GET

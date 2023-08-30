@@ -1,4 +1,4 @@
-package HomeWork.Part_2.D_FruitBox;
+package Part_2.D_FruitBox;
 
 public class Main {
     public static void main(String[] args) {

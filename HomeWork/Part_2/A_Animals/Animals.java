@@ -1,4 +1,4 @@
-package HomeWork.Part_2.A_Animals;
+package Part_2.A_Animals;
 
 import java.util.Scanner;
 

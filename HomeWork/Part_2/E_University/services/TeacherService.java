@@ -1,8 +1,8 @@
-package HomeWork.Part_2.E_University.services;
+package Part_2.E_University.services;
 
-import HomeWork.Part_2.E_University.models.Teacher;
-import HomeWork.Part_2.E_University.models.User;
-import HomeWork.Part_2.E_University.repositories.UserRepository;
+import Part_2.E_University.models.Teacher;
+import Part_2.E_University.models.User;
+import Part_2.E_University.repositories.UserRepository;
 
 import java.util.Collections;
 import java.util.Comparator;

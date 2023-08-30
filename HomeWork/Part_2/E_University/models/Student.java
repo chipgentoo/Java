@@ -1,4 +1,4 @@
-package HomeWork.Part_2.E_University.models;
+package Part_2.E_University.models;
 
 public class Student extends User{
     public Student(String fullName, Integer age, String phoneNumber, String groupTitle) {

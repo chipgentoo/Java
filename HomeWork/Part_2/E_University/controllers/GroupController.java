@@ -1,7 +1,7 @@
-package HomeWork.Part_2.E_University.controllers;
+package Part_2.E_University.controllers;
 
-import HomeWork.Part_2.E_University.models.User;
-import HomeWork.Part_2.E_University.services.GroupService;
+import Part_2.E_University.models.User;
+import Part_2.E_University.services.GroupService;
 
 import java.util.List;
 

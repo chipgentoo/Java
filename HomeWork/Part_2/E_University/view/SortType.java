@@ -1,4 +1,4 @@
-package HomeWork.Part_2.E_University.view;
+package Part_2.E_University.view;
 
 public enum SortType {
     NONE("Сортировка по умолчанию"),
