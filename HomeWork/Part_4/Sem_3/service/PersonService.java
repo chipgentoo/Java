@@ -1,6 +1,6 @@
-package HomeWork.Part_4.Sem_3.service;
+package Part_4.Sem_3.service;
 
-import HomeWork.Part_4.Sem_3.model.Person;
+import Part_4.Sem_3.model.Person;
 
 import java.io.IOException;
 

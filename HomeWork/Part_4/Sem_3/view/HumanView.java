@@ -1,7 +1,7 @@
-package HomeWork.Part_4.Sem_3.view;
+package Part_4.Sem_3.view;
 
-import HomeWork.Part_4.Sem_3.controller.PersonController;
-import HomeWork.Part_4.Sem_3.model.Human;
+import Part_4.Sem_3.controller.PersonController;
+import Part_4.Sem_3.model.Human;
 
 import java.io.IOException;
 import java.text.ParseException;

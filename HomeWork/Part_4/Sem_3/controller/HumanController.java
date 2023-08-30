@@ -1,7 +1,7 @@
-package HomeWork.Part_4.Sem_3.controller;
+package Part_4.Sem_3.controller;
 
-import HomeWork.Part_4.Sem_3.model.Human;
-import HomeWork.Part_4.Sem_3.service.PersonService;
+import Part_4.Sem_3.model.Human;
+import Part_4.Sem_3.service.PersonService;
 
 import java.io.IOException;
 

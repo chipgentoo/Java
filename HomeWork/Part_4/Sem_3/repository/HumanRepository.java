@@ -1,6 +1,6 @@
-package HomeWork.Part_4.Sem_3.repository;
+package Part_4.Sem_3.repository;
 
-import HomeWork.Part_4.Sem_3.model.Human;
+import Part_4.Sem_3.model.Human;
 
 import java.io.FileWriter;
 import java.io.IOException;
