@@ -1,7 +1,7 @@
-package Part_4.Sem_3.service;
+package HomeWork.Part_4.Sem_3.service;
 
-import Part_4.Sem_3.model.Human;
-import Part_4.Sem_3.repository.PersonRepository;
+import HomeWork.Part_4.Sem_3.model.Human;
+import HomeWork.Part_4.Sem_3.repository.PersonRepository;
 
 import java.io.IOException;
 
