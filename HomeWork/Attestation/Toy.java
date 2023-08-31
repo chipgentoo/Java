@@ -1,10 +1,10 @@
 package Attestation;
 
 public class Toy {
-    public String art;      // артикул
-    public String name;     // название игрушки
-    public int quantity;    // кол-во игрушек
-    public short chance;    // шанс выпадения
+    private final String art;      // артикул
+    private final String name;     // название игрушки
+    private int quantity;    // кол-во игрушек
+    private short chance;    // шанс выпадения
 
     public Toy(String art, String name, int quantity, short chance) {
         this.art = art;
@@ -44,5 +44,10 @@ public class Toy {
                 "\tНазвание = " + name + "," +
                 "\tКол-во = " + quantity + "," +
                 "\t%% выпадения = " + chance;
+    }
+    public String toShortString(){
+        return "Игрушка: " +
+                "\tартикул = " + art + "," +
+                "\tНазвание = " + name + "\n";
     }
 }

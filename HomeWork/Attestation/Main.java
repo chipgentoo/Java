@@ -19,23 +19,29 @@ public class Main {
         raffleToy.add(Embroidery);
         raffleToy.add(Trinket);
 
+        raffleToy.showList();
+        System.out.println("==========");
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Команды - add, edit, del, show");
-        System.out.print("Введите команду: >");
         while (true){
+            System.out.println("Команды - add, edit, del, list, win, exit");
+            System.out.print("Введите команду: >");
             switch (scanner.nextLine()) {
                 case "add" -> {
-                    raffleToy.add(raffleToy.getToyConsole());
-                    System.out.println("Добавлена игрушка");
+                    if (raffleToy.add(raffleToy.getToyConsole())){
+                        System.out.println("Игрушка добавлена!");
+                    }
                 }
                 case "edit" -> {
-                    System.out.println("Введите артикул игрушки для изменения: >");
+                    System.out.print("Введите артикул игрушки для изменения: >");
                     raffleToy.edit(scanner.nextLine());
                 }
                 case "del" -> {
-                    //
+                    System.out.print("Введите артикул игрушки для удаления: >");
+                    raffleToy.delete(scanner.nextLine());
                 }
-                case "show" -> raffleToy.showList();
+                case "list" -> raffleToy.showList();
+                case "win" -> raffleToy.winlot();
                 case "exit" -> System.exit(0);
             }
         }
