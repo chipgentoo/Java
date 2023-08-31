@@ -40,9 +40,9 @@ public class Toy {
     @Override
     public String toString() {
         return "Игрушка: " +
-                "артикул = " + art +
-                ", Название = " + name +
-                ", Кол-во = " + quantity +
-                ", %% выпадения = " + chance;
+                "\tартикул = " + art + "," +
+                "\tНазвание = " + name + "," +
+                "\tКол-во = " + quantity + "," +
+                "\t%% выпадения = " + chance;
     }
 }
