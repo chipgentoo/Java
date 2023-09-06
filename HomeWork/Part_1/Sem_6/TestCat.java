@@ -1,4 +1,4 @@
-package Part_1.Sem_6;
+package HomeWork.Part_1.Sem_6;
 
 public class TestCat {
     public static void main(String[] args) {

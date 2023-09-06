@@ -1,4 +1,4 @@
-package Part_1.Sem_6;
+package HomeWork.Part_1.Sem_6;
 
 import java.util.ArrayList;
 import java.util.Scanner;

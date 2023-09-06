@@ -96,8 +96,8 @@ public final class RaffleToy {
             if(Objects.equals(toyList.get(i).getArt(), art)){
                 try {
                     toyList.remove(i);
-                } catch (UnsupportedOperationException e){
-                    System.out.println(e);
+                } catch (UnsupportedOperationException exception){
+                    System.out.println(exception.getMessage());
                 }
             }
         }
@@ -117,7 +117,7 @@ public final class RaffleToy {
         Date date = new Date();
         String saveString = "";
         for (Toy toy:toyList) {
-            if (toy.getArt()==art){
+            if (Objects.equals(toy.getArt(), art)){
                 saveString = date + " -> " + toy.toShortString();
             }
         }
@@ -125,8 +125,8 @@ public final class RaffleToy {
         try(FileWriter toyFW = new FileWriter(pathFile,true)){
             toyFW.write(saveString);
             toyFW.flush();
-        } catch (IOException e){
-            System.out.println(e);
+        } catch (IOException exception){
+            System.out.println(exception.getMessage());
         }
     }
 

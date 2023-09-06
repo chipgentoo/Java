@@ -1,6 +1,6 @@
-package Part_4.Sem_3.view;
+package HomeWork.Part_4.Sem_3.view;
 
-import Part_4.Sem_3.model.Person;
+import HomeWork.Part_4.Sem_3.model.Person;
 
 import java.io.IOException;
 import java.text.ParseException;
