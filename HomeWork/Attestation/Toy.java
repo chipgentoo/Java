@@ -1,4 +1,4 @@
-package Attestation;
+package HomeWork.Attestation;
 
 public class Toy {
     private final String art;      // артикул

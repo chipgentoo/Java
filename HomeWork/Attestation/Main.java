@@ -1,4 +1,4 @@
-package Attestation;
+package HomeWork.Attestation;
 
 import java.util.Scanner;
 
